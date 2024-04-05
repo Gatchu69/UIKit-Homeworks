@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; text = "დიდი"; ObjectID = "1R0-Zj-0JQ"; */
+"1R0-Zj-0JQ.text" = "დიდი";
+
+/* Class = "UITextField"; text = "5.95"; ObjectID = "25m-yJ-Rv9"; */
+"25m-yJ-Rv9.text" = "5.95";
+
+/* Class = "UITextField"; text = "ფასი"; ObjectID = "2qy-lA-pxg"; */
+"2qy-lA-pxg.text" = "ფასი";
+
+/* Class = "UITextField"; text = "ზომა"; ObjectID = "DL7-ZN-guT"; */
+"DL7-ZN-guT.text" = "ზომა";
+
+/* Class = "UIButton"; configuration.title = "ყიდვა"; ObjectID = "Fbp-Ln-fY4"; */
+"Fbp-Ln-fY4.configuration.title" = "ყიდვა";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Fbp-Ln-fY4"; */
+"Fbp-Ln-fY4.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "პაწა"; ObjectID = "JSA-pO-0gK"; */
+"JSA-pO-0gK.text" = "პაწა";
+
+/* Class = "UITextField"; text = "საშუალო"; ObjectID = "L22-ym-Rfq"; */
+"L22-ym-Rfq.text" = "საშუალო";
+
+/* Class = "UITextField"; text = "შოკოლადით"; ObjectID = "NxJ-jg-kIq"; */
+"NxJ-jg-kIq.text" = "შოკოლადით";
+
+/* Class = "UITextField"; text = "კაპუჩინო"; ObjectID = "Oy9-Ms-Jml"; */
+"Oy9-Ms-Jml.text" = "კაპუჩინო";
+
+/* Class = "UITextField"; text = "აღწერა"; ObjectID = "QV6-Ka-69w"; */
+"QV6-Ka-69w.text" = "აღწერა";
+
+/* Class = "UITextField"; text = "4.8"; ObjectID = "iky-LQ-p2o"; */
+"iky-LQ-p2o.text" = "4.8";

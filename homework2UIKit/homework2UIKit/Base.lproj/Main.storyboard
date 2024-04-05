@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homework2UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="აღწერა" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="QV6-Ka-69w">
+                                <rect key="frame" x="30" y="487" width="56" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="KMW-Cb-XeY"/>
+                                    <constraint firstAttribute="height" constant="22" id="lXm-j4-kuJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="top" usesAttributedText="YES" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="sKM-yX-Ycg">
+                                <rect key="frame" x="30" y="529" width="315" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="MYu-CX-mYs"/>
+                                    <constraint firstAttribute="height" constant="91" id="wHX-Tj-u6e"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="მოცემული">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="კაპუჩინო">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="არის">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="დაახლოებით">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" 150 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="მლ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=". ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ის">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="შეიცავს">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" 25 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="მლ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=". ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ესპრესოს">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ყავას">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=", 85 ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="მლ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=". ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ახალთახალი">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="მოწველილი">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ძროხის">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="რძის">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="რძეს">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=", ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="რომელიც">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="სპეც">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="... ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="მეტი">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSOriginalFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
+                                                <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ზომა" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="DL7-ZN-guT">
+                                <rect key="frame" x="30" y="638" width="36" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="ZUj-0H-MTc"/>
+                                    <constraint firstAttribute="height" constant="22" id="wmA-Ig-FFI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="კაპუჩინო" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Oy9-Ms-Jml">
+                                <rect key="frame" x="30" y="363" width="82" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="NyY-qt-p2e"/>
+                                    <constraint firstAttribute="height" constant="28" id="jdH-cC-PFT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="შოკოლადით" textAlignment="natural" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="NxJ-jg-kIq">
+                                <rect key="frame" x="30" y="399" width="73" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="D1Z-uy-8zz"/>
+                                    <constraint firstAttribute="width" constant="73" id="Vzi-sE-eaQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f74a0912e6e3eef515b6450927558373" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xmc-UT-8Z5">
+                                <rect key="frame" x="57.666666666666657" y="58" width="315" height="226"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="ENu-il-RHq"/>
+                                    <constraint firstAttribute="height" constant="226" id="Hs4-5K-WAL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ratingstar" translatesAutoresizingMaskIntoConstraints="NO" id="7o0-It-c9X">
+                                <rect key="frame" x="30" y="427" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="3rf-r3-nig"/>
+                                    <constraint firstAttribute="width" constant="20" id="7iy-nn-FHx"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Dnj-vG-g7r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="SvG-po-5a3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="06fbbc8955d3bc654a40de7dd8064616" translatesAutoresizingMaskIntoConstraints="NO" id="d1C-WK-ypE">
+                                <rect key="frame" x="324" y="427" width="21" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="21" id="Qbk-Q6-txQ"/>
+                                    <constraint firstAttribute="height" constant="20" id="eP6-BF-qUJ"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="საშუალო" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L22-ym-Rfq">
+                                <rect key="frame" x="152" y="670" width="96" height="43"/>
+                                <color key="backgroundColor" red="0.98961133512544808" green="0.67277598839973951" blue="0.4587030837606717" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="4sv-Mi-ff0"/>
+                                    <constraint firstAttribute="height" constant="43" id="flr-on-ZmO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="დიდი" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1R0-Zj-0JQ">
+                                <rect key="frame" x="276" y="670" width="96" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="6yo-ff-bz8"/>
+                                    <constraint firstAttribute="width" constant="96" id="LNH-Ry-k5Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="პაწა" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JSA-pO-0gK">
+                                <rect key="frame" x="33" y="670" width="97" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="5dP-re-rpe"/>
+                                    <constraint firstAttribute="height" constant="43" id="RJW-3x-FRV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbp-Ln-fY4">
+                                <rect key="frame" x="128" y="766" width="217" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.67983860380000005" blue="0.46351842129999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="as4-B4-z1l"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="217" id="dXJ-UY-kRF"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="217" minY="64" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ყიდვა" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4.8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iky-LQ-p2o">
+                                <rect key="frame" x="53" y="427" width="86" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="GwP-UI-YpM"/>
+                                    <constraint firstAttribute="height" constant="20" id="KHe-Wz-MAa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ფასი" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="2qy-lA-pxg">
+                                <rect key="frame" x="30" y="766" width="31" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="SfC-79-LEl"/>
+                                    <constraint firstAttribute="height" constant="20" id="hdI-G7-pIr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5.95" textAlignment="natural" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="25m-yJ-Rv9">
+                                <rect key="frame" x="30" y="787" width="55" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="6RX-WE-Gfs"/>
+                                    <constraint firstAttribute="height" constant="23" id="IV1-0a-moh"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.67983860380000005" blue="0.46351842129999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iky-LQ-p2o" firstAttribute="leading" secondItem="7o0-It-c9X" secondAttribute="trailing" constant="3" id="17U-e6-eNi"/>
+                            <constraint firstItem="d1C-WK-ypE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="324" id="1g4-Oc-1KX"/>
+                            <constraint firstItem="25m-yJ-Rv9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="3kp-AI-Bw0"/>
+                            <constraint firstItem="d1C-WK-ypE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="368" id="5Or-ov-99H"/>
+                            <constraint firstItem="2qy-lA-pxg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="707" id="97u-cn-iPX"/>
+                            <constraint firstItem="2qy-lA-pxg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="A3D-uD-RqI"/>
+                            <constraint firstItem="L22-ym-Rfq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="AUR-pb-C35"/>
+                            <constraint firstItem="Xmc-UT-8Z5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AVN-ru-d6e"/>
+                            <constraint firstItem="NxJ-jg-kIq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Agc-JF-2Nl"/>
+                            <constraint firstItem="25m-yJ-Rv9" firstAttribute="top" secondItem="2qy-lA-pxg" secondAttribute="bottom" constant="1" id="Ba4-l6-oWm"/>
+                            <constraint firstItem="Oy9-Ms-Jml" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Bjr-Z1-DZp"/>
+                            <constraint firstItem="QV6-Ka-69w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="428" id="DZ1-FG-fBS"/>
+                            <constraint firstItem="1R0-Zj-0JQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="611" id="Fjv-CA-qqq"/>
+                            <constraint firstItem="7o0-It-c9X" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="368" id="GTn-OA-028"/>
+                            <constraint firstItem="7o0-It-c9X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ghd-Vc-I0q"/>
+                            <constraint firstItem="Xmc-UT-8Z5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="58" id="IZm-BN-10w"/>
+                            <constraint firstItem="Fbp-Ln-fY4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="128" id="Imt-Jl-y1d"/>
+                            <constraint firstItem="iky-LQ-p2o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="368" id="KFS-z9-jym"/>
+                            <constraint firstItem="DL7-ZN-guT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="S3e-Se-KRV"/>
+                            <constraint firstItem="QV6-Ka-69w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="S9v-WB-yDo"/>
+                            <constraint firstItem="L22-ym-Rfq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="611" id="Upp-bs-MQf"/>
+                            <constraint firstItem="DL7-ZN-guT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="579" id="all-ro-81G"/>
+                            <constraint firstItem="Fbp-Ln-fY4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="707" id="bLu-e1-sTf"/>
+                            <constraint firstItem="NxJ-jg-kIq" firstAttribute="top" secondItem="Oy9-Ms-Jml" secondAttribute="bottom" constant="8" id="cso-ce-eFt"/>
+                            <constraint firstItem="Oy9-Ms-Jml" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="304" id="h0g-2U-HJN"/>
+                            <constraint firstItem="1R0-Zj-0JQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="256" id="hoK-yt-zCb"/>
+                            <constraint firstItem="JSA-pO-0gK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="ipm-j4-YMD"/>
+                            <constraint firstItem="JSA-pO-0gK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="611" id="kJx-19-Tox"/>
+                            <constraint firstItem="sKM-yX-Ycg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="wAu-zc-rdG"/>
+                            <constraint firstItem="sKM-yX-Ycg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="470" id="wIA-wU-GxT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.209302325581397" y="-2.5751072961373391"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="06fbbc8955d3bc654a40de7dd8064616" width="31" height="29.5"/>
+        <image name="Ratingstar" width="10" height="10"/>
+        <image name="f74a0912e6e3eef515b6450927558373" width="885" height="590"/>
+    </resources>
+</document>
