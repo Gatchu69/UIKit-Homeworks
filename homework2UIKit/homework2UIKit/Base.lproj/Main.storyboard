@@ -34,7 +34,7 @@
                                     <fragment content="მოცემული">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -53,7 +53,7 @@
                                     <fragment content="კაპუჩინო">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -72,7 +72,7 @@
                                     <fragment content="არის">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -91,7 +91,7 @@
                                     <fragment content="დაახლოებით">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -110,7 +110,7 @@
                                     <fragment content="მლ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -129,7 +129,7 @@
                                     <fragment content="ის">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -148,7 +148,7 @@
                                     <fragment content="შეიცავს">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -167,7 +167,7 @@
                                     <fragment content="მლ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -186,7 +186,7 @@
                                     <fragment content="ესპრესოს">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -205,7 +205,7 @@
                                     <fragment content="ყავას">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -224,7 +224,7 @@
                                     <fragment content="მლ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -243,7 +243,7 @@
                                     <fragment content="ახალთახალი">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -262,7 +262,7 @@
                                     <fragment content="მოწველილი">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -281,7 +281,7 @@
                                     <fragment content="ძროხის">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -300,7 +300,7 @@
                                     <fragment content="რძის">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -319,7 +319,7 @@
                                     <fragment content="რძეს">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -338,7 +338,7 @@
                                     <fragment content="რომელიც">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -357,7 +357,7 @@
                                     <fragment content="სპეც">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
@@ -376,7 +376,7 @@
                                     <fragment content="მეტი">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name=".SFGeorgian-Regular"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <font key="NSOriginalFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.69999998807907104">
                                                 <lineBreakStrategy key="lineBreakStrategy" pushOut="YES"/>
