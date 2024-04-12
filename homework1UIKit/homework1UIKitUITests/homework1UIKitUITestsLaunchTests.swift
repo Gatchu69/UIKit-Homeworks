@@ -1,13 +1,13 @@
 //
-//  Homework14UIKitUITestsLaunchTests.swift
-//  Homework14UIKitUITests
+//  homework1UIKitUITestsLaunchTests.swift
+//  homework1UIKitUITests
 //
-//  Created by Nodiko Gachava on 07.04.24.
+//  Created by Nodiko Gachava on 08.04.24.
 //
 
 import XCTest
 
-final class Homework14UIKitUITestsLaunchTests: XCTestCase {
+final class homework1UIKitUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

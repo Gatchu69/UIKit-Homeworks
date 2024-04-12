@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Homework14UIKit
+//  homework1UIKit
 //
-//  Created by Nodiko Gachava on 07.04.24.
+//  Created by Nodiko Gachava on 08.04.24.
 //
 
 import UIKit

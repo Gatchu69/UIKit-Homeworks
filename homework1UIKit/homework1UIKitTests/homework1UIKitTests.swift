@@ -1,14 +1,14 @@
 //
-//  Homework14UIKitTests.swift
-//  Homework14UIKitTests
+//  homework1UIKitTests.swift
+//  homework1UIKitTests
 //
-//  Created by Nodiko Gachava on 07.04.24.
+//  Created by Nodiko Gachava on 08.04.24.
 //
 
 import XCTest
-@testable import Homework14UIKit
+@testable import homework1UIKit
 
-final class Homework14UIKitTests: XCTestCase {
+final class homework1UIKitTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
